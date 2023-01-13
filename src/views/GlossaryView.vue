@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap%27);
-
 <template>
   <div class="container mt-3">
     <div class="row row-cols-3">

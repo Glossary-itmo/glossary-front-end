@@ -1,5 +1,6 @@
 <template>
-  <ul class="nav nav-tabs" style="margin-top: 7px">
+  <ul class="nav nav-tabs pt-3 bg-body-secondary">
+    <h4 class="mx-3">Дуйшеналиев Аким P42081</h4>
     <li class="nav-item">
       <router-link class="nav-link" to="/" active-class="active"
         >Граф</router-link
