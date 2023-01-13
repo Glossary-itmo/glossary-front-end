@@ -1,30 +1,29 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <ul class="nav nav-tabs" style="margin-top: 7px">
+    <li class="nav-item">
+      <router-link class="nav-link" to="/" active-class="active"
+        >Граф</router-link
+      >
+    </li>
+    <li class="nav-item">
+      <router-link class="nav-link" to="/glossary" active-class="active"
+        >Глоссарий</router-link
+      >
+    </li>
+    <!-- <li class="nav-item">
+      <router-link class="nav-link" to="/add_to_glossary" active-class="active"
+        >Добавить в глоссарий</router-link
+      >
+    </li> -->
+  </ul>
   <router-view />
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 </style>
