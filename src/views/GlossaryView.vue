@@ -3,7 +3,7 @@
     <div class="row row-cols-3">
       <div v-for="item in data.nodes" :key="item.key">
         <div class="card col mb-2">
-          <div class="card-body">
+          <div class="card-body bg-secondary-subtle">
             <h5 class="card-title">{{ item.attributes.label }}</h5>
             <hr />
             <p class="card-text">{{ item.attributes.text }}</p>
